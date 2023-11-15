@@ -67,7 +67,7 @@ pBuffer = (uint8_t *)obd.getBuffer();
 void loop() {
   // Controla o LED Neopixel com base no status de conexão Wi-Fi
    if (WiFi.status() == WL_CONNECTED) {
-    neopixel.setPixelColor(0, neopixel.Color(0, 5, 0)); // Azul quando conectado
+    neopixel.setPixelColor(0, neopixel.Color(0, 5, 0)); // Verde quando conectado
   }
   neopixel.show();
 
